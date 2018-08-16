@@ -6,45 +6,88 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="description" content="About Three School: Szkoła Podstawowa nr 2 im. H. Sienkiewicza; Zespół Szkół Łączności im. Mikołaja Kopernika w Poznaniu; Wyższa Szkoła Logistyki w Poznaniu">
-	<meta name="keywords" content="WSL,ZSŁ, Szkoła Podstawowa nr 2">
+	<meta name="keywords" content="WSL,ZSŁ, Szkoła Podstawowa nr. 2">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1">
 	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
-	<html lang="en-US">
+	<html xml:lang="en" lang="en">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#collageto'), 500); });
+			$('#link2').click(function() { $.scrollTo($('#high_schoolto'), 500); });
+			$('#link3').click(function() { $.scrollTo($('#primaryto'), 500); });
+	
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
 </head>
 
 <body>
 
-<header><img src="img/header.jpg"></img></header>
+<header>
+	<img src="img/header.jpg"></img>
+</header>
 
 <nav>
 	<ol>
-		<li>Primary School</li>
-		<li>High School</li>
-		<li>Collage</li>
+		<li>
+			<a id="link1" href="#">Collage</a>
+		</li>
+		<li>
+			<a id="link2" href="#">High School</a>
+		</li>
+		<li>
+			<a id="link3" href="#">Primary School</a>
+		</li>
 	</ol>
 </nav>
-
 <main>
+	<a href="#" class="scrollup"><img src="img/up.png"></img></a>
 	<article>
 		<div class="home">
-		
+			<img class="photo" src="img/home.jpg"></img>
+			<span class="description"><p>Hello, I was born in 1992 years. Since birth, I live in Murowana Goślina and here begins my places education.</p></span>
 		</div>
 	</article>
+	</br>
 	<article>
-		<div class="primary">
-		
+		<div id="primaryto" class="primary">
+			<img class="photo" src="img/primary.jpg"></img>
+			<span class="description"><p>Primary School No. 2 names Henryk Sienkiewicz in Murowana Goślina is for 1 September 1999 years according with educational reforms six-year primary school. It is currently a fully modern facility. In the school year 2011/2012 they had class I-VI with 471 students.<br></br>The school employs 42 teachers, 6 administration and service staff. We have 22 teaching rooms, which include modernly equipped two computer room, a reading room, a library, a gymnasium. Students can use the nursing office and the canteen, where dinners eat about 50 students every day.<br></br>The School runs a wide educational - activity and caring. For many year creating a regional identity. Participates in various educational programs and projects.<br></br>In 2003 they obtained certificate "School with Class". In the school year 2005/2006, we implemented project "Family" and thanks them we obtained certificate "School socially engaged". Since 2005 implementing education ecological program "Nature wandering". Since 2007, every year we have been certified by The Polish Dyslexia Society for helping students with specific learning difficulties after the implementation of the educational and therapeutic program "Ortograffiti". In 2007 we joined the implementation of the social program "School without violence" and we undertake it's tasks in the following years. In the school year 2010/1011 the school once again won the title of laureate of the Pro Sinfonika Music Competition, and was also honored with a special prize - it won the Cup of the President of the Republic of Poland Bronisław Komorowski.</p></span>
 		</div>
 	</article>
+	</br>
 	<article>
-		<div class="high">
-		
+		<div id="high_schoolto" class="high_school">
+			<img class="photo" src="img/high.jpeg" alt="Zespół Szkół Łączności im. Mikołaja Kopernika"></img>
+			<span class="description"><p>Showing the history of the School and the changes structure and organization. In 1946 were opened State Junior High School and the Telecommunications High School. Program Learning included theoretical and practical subjects in mechanical, an electrical workshops and in laboratories. In August 1955, pursuant to the decision of the Ministry of Posts and Telegraphs, the No. 1 Telecommunications Technical School was combined with the Secondary Technical School No. 2 into one school. In 1962 was changed again the name school in The State Technical School. Alongside the school's development, there were housing problems. In a short time, was established the Social Committee for the Construction of the School, chaired by Ing. Jan Kędzia. The aim of the Committee was to build a School from the funds of the Schools Tysiąclecia. The symbolic foundation was erected on October 10, 1963.<br></br>It is also necessary to mention the work of the school workshops, which have worked very well with numerous enterprises over the past few decades. Subsequent changes took place form September 1, 1975, when the name was changed to today - Zespół Szkół Łączności im. Mikołaja Kopernika in Poznan. A symbol of the modernity of the eighties, was the creation of a computer lab.<br></br>On 1 September 1999, as a result of the reform of education in ZSŁ was established Middle School No. 4. Further changes are in 2002. Open new School - XXXIV Profiled High School and XXXIV High School, these school were educated in the following profiles: electronic, information management, humanities and mathematics - informatics. The consequence of the reform of education was also the expiration of some types of schools, eg. the five-year Technical School of Communications. In addition, the Post-secondary Vocational College continued to educate young people and adults on a full-time and part-time basic. These important changes were not only structural and organizational, but primarily didactic. New types of school are a new model of education verified during external examinations: maturity and confirming vocational qualifications.<br></br>An important date in the history of the School of Communication is om April 24, 2004. On this day, after long months of hard work, the School received certificate the ISO 9001 - 2000, guaranteeing high quality of education, requiring reliable performance of tasks in the field of didactic, organizational and educational - care services. Currently, the school is over 60 years old and is constantly growing. Young people have the opportunity to study in modern workshops at the School and outside it's walls, for example during exchanges of foreign youth from St. Petersburg or Paris. Other pedagogical innovations are introduced, eg. video-learning in individual teaching, creation of virtual classes, educational projects based on cooperation with institutions and youth from European Union countries and the local environment. And all this in line with the slogan: "The key to success is to move ahead of what is to come."</p></span>
 		</div>
 	</article>
+	</br>
 	<article>
-		<div class="collage">
-		
+		<div id="collageto" class="collage">
+			<img class="photo" src="img/collage.jpg"></img>
+			<span class="description"><p>The University of Logistics is the first private logistic school in Poland created on the initiative of the "Institute of Logistics and Warehousing" and the Center for Logistic Education in Poznan. The University provides teaching in the field of broadly understood logistic and management, at first and second level studies. The education offer is complemented by post - graduate studies including program MBA in Logistcs and Supply Chain Management.<br></br>The teachers of The University of Logistics makes teams specializing in given field. Teams dealing with related fields form a cathedral or study.<br></br>The University of Logistics in Poznan cooperates with enterprises that are among the leader in the logistics industry. As a student, you will gain direct access to internships and apprenticeships in renowned companies. The Business partners regularly participate in the initiatives undertake by the University, support them financially, provide teaching materials. The information about market work that the University gains through active cooperation influences changes in the education program so that it is always adequate to the graduates expectations. Representatives and managers of companies that can become your future employer, you can get to know during logistics meetings as part of the LogMeeting program.</p></span>
 		</div>
 	</article>
+	</br>
 </main>
 
 <footer>
