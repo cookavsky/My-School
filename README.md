@@ -4,6 +4,7 @@
 ## Table of contents
 * [Getting Started](#getting-started)
 * [Technologies](#technologies)
+* [To do](#to-do)
 * [Acknowledgments](#acknowledgments)
 * [Status](#status)
 * [Author](#author)
