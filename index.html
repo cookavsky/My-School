@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -9,33 +9,32 @@
 	<meta name="keywords" content="WSL,ZSŁ, Szkoła Podstawowa nr. 2">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1">
 	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
-	<html xml:lang="en" lang="en">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="jquery.scrollTo.min.js"></script>
 	<script>
-		
+
 		jQuery(function($)
 		{
 			//zresetuj scrolla
 			$.scrollTo(0);
-			
+
 			$('#link1').click(function() { $.scrollTo($('#collageto'), 500); });
 			$('#link2').click(function() { $.scrollTo($('#high_schoolto'), 500); });
 			$('#link3').click(function() { $.scrollTo($('#primaryto'), 500); });
-	
+
 			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
 		}
 		);
-		
+
 		//pokaż podczas przewijania
 		$(window).scroll(function()
 		{
 			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
-			else $('.scrollup').fadeOut();		
+			else $('.scrollup').fadeOut();
 		}
 		);
-	
-	
+
+
 	</script>
 </head>
 
