@@ -16,6 +16,9 @@ It does not have any requirements. The principle of "copy, paste". After watchin
 * CSS
 * JQUERY 3.3.1
 
+## To do
+* Totally change everything
+
 ## Acknowledgments
 * Inspiration : https://miroslawzelent.pl/kurs-html
 
