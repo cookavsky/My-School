@@ -23,4 +23,4 @@ It does not have any requirements. The principle of "copy, paste". After watchin
 Archive
 
 ## Author
-Created by [cookavsky- MySchools](https://www.schools.cookavsky.com/) - for friends Polska Panda.
+Created by [cookavsky - MySchools](https://www.schools.cookavsky.com/) - for friends Polska Panda.
