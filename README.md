@@ -1,5 +1,5 @@
 # My Schools - cookavsky
-**_A description of my completed schools. Builded with simple HTML, CSS, JQUERY. Archive._**
+**_A description of my completed schools. Builded with simple HTML, CSS, JQUERY. Abandoned._**
 
 ## Table of contents
 * [Getting Started](#getting-started)
