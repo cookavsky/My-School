@@ -1,6 +1,3 @@
-# Portfolio - cookavsky
-**_Presentation of myself and my knowledge. Currently builded with simple HTML, CSS, JS._**
-
 # My Schools - cookavsky
 **_A description of my completed schools. Builded with simple HTML, CSS, JQUERY. Archive._**
 
@@ -26,4 +23,4 @@ It does not have any requirements. The principle of "copy, paste". After watchin
 Archive
 
 ## Author
-Created by [cookavsky](https://www.cookavsky.com/) - for friends Polska Panda.
+Created by [cookavsky- MySchools](https://www.schools.cookavsky.com/) - for friends Polska Panda.
