@@ -9,7 +9,7 @@
 * [Author](#author)
 
 ## Getting Started
-It does not have any requirements. The principle of "copy, paste". After watching Mirosław Zelent's courses, I created my first page. **It contains a lot of errors, it is not recommended to use it. Left for preview purposes. He is waiting to improve it.**
+It does not have any requirements. The principle of "copy, paste". After watching Mirosław Zelent's courses, I created my first page. **It contains a lot of errors, it is not recommended to use it. Left for preview purposes. Waiting to improve it.**
 
 ## Technologies
 * HTML
