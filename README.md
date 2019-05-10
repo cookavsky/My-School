@@ -27,4 +27,4 @@ It does not have any requirements. The principle of "copy, paste". After watchin
 Archive
 
 ## Author
-Created by **_cookavsky_** - [MySchools](https://www.schools.cookavsky.com/) - for friends Polska Panda.
+Created by **_cookavsky_** - [MySchools](https://cookavsky.com/project/My_School) - for friends Polska Panda.
